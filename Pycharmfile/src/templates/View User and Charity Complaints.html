@@ -1,0 +1,40 @@
+{% extends 'index1.html' %}
+{% block body %}
+
+<body>
+<form action="search" method="post">
+<table class="table table-hover">
+  <tr>
+    <td colspan="5">Type 
+      <label>
+      <select name="select">
+        <option {% if type == 'charity' %}selected{% endif %} >charity</option>
+          <option {% if type == 'user' %}selected{% endif %}>user</option>
+      </select>
+      <input name="Search" type="submit" value="Search" />
+      </label></td>
+  </tr>
+  <tr>
+    <td><h3>#</h3></td>
+    <td>Name</td>
+    <td>complaint</td>
+    <td>Date</td>
+    <td>&nbsp;</td>
+  </tr>
+
+      {% for i in val %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>{{ i['Name'] }}</td>
+      <td>&nbsp;{{ i['complaint'] }}</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+
+
+
+    <td><a href="Reply?id={{i['cid']}}">Reply</a></td>
+  </tr>
+  {% endfor %}
+</table>
+</form>
+</body>
+{% endblock %}

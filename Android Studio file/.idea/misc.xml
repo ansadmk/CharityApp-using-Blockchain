@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/drawable/background.xml" value="0.303" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/drawable/circular_button.xml" value="0.184" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/drawable/neomorphic_button_background.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/drawable/neumorphic_button_background.xml" value="0.184" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/font/fonts.xml" value="0.2046875" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout-v23/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_add_donation.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_all_organisation.xml" value="0.25" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_chat.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_chatwithcharity.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_chatwithfriends.xml" value="0.22" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_custom3.xml" value="0.25" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_custom4.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_custom_image.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_custom_req_status.xml" value="0.25" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_customfor_requests.xml" value="0.3458333333333333" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_donationstatus.xml" value="0.22" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_ip.xml" value="0.5" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_neomorphism.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_requeststatus.xml" value="0.22" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_sendcomplaintandviewreply.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_senddonation.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_test.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_testgrid.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_user_registeration.xml" value="0.1" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_userhome.xml" value="0.1" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_view_nearby_charity.xml" value="0.22" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_view_request.xml" value="0.22" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/activity_view_request_status.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/content_chat.xml" value="0.22" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/content_viewrequeststatus.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/fragment_first.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/fragment_first2.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/fragment_second.xml" value="0.25" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/fragment_second2.xml" value="0.14" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/layout.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/layout/row_message.xml" value="0.25" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1105" />
+        <entry key="..\:/Users/dell/StudioProjects/charityapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1105" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

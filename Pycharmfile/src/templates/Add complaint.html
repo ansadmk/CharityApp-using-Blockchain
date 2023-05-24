@@ -1,0 +1,26 @@
+{% extends 'index1.html' %}
+{% block body %}
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="Addcomplaintpost">
+  <table width="200" border="1">
+    <tr>
+      <td>Complaint</td>
+      <td><label>
+        <input type="text" name="textfield" required />
+      </label></td>
+    </tr>
+    <tr>
+      <td colspan="2"><label>
+        <input type="submit" name="Submit" value="Send" />
+      </label></td>
+    </tr>
+  </table>
+</form>
+</body>
+<!--</html>-->
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends 'index2.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="AddRequest">
+  <table class="table table-hover">
+    <tr>
+      <th>#</th>
+      <th>Request</th>
+      <th>Date</th>
+      <th>Responses</th>
+    </tr>
+      {% for i in val %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>{{ i['request'] }}</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+      <td>{% if i['status']=="pending" %}<a href="UpdateStatus?id={{i['id']}}">View Update Status</a>{% else %} {{i['status']}} {% endif %}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+      <td colspan="3"><label>
+        <input type="submit" name="Submit" value="Add" />
+      </label></td>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

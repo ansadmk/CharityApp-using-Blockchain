@@ -1,0 +1,22 @@
+{% extends 'index2.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+<table class="table table-hover">
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>&nbsp;</th>
+    </tr>
+    {% for  i in val %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>{{ i['Fname'] }}<br>{{ i['Lname'] }}</td>
+      <td><a href="chat2?uid={{i['lid']}}">Chat</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+</form>
+</body>
+{% endblock %}

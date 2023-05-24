@@ -1,0 +1,29 @@
+{% extends 'index2.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="ViewDonationposts">
+<table class="table table-hover">
+  <tr>
+    <th>#</th>
+    <th>Name</th>
+    <th>Details</th>
+    <th>doc img</th>
+    <th>Date</th>
+    <th>&nbsp;</th>
+  </tr>
+   {% for i in val %}
+  <tr>
+    <td>&nbsp;{{ loop.index }}</td>
+    <td>{{ i['Fname'] }} {{ i['Lname'] }}</td>
+    <td>{{ i['Details'] }}</td>
+    <td><img src="../static/photos/{{ i['image']}}" width="100dp" height="100dp"></td>
+    <td>{{ i['Date'] }}</td>
+    <td><p><a href="/AcceptViewDonationposts?id={{i['Id']}}">accept</a></p>
+    <a href="chat2?uid={{i['lid']}}">Chat</a></td>
+  </tr>
+  {% endfor %}
+</table>
+</form>
+</body>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends 'index1.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+ <table class="table table-hover">
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Proof</th>
+      <th>&nbsp;</th>
+    </tr>
+
+       {% for i in val %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>{{ i['Name'] }}</td>
+      <td>{% if  i['proof']=='pending'%}pending
+          {% else %}
+          <img src="../static/proof/{{i['proof']}}" width="100dp" height="100dp">{{ i['proof'] }}
+      {% endif %}</td>
+
+
+
+      <td><a href="../static/proof/{{i['proof']}}">View</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+</form>
+</body>
+{% endblock %}
